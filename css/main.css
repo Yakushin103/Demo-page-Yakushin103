@@ -14506,24 +14506,17 @@ p {
       font-size: 14px; } }
 
 .pic {
-  margin: 58px 0;
+  width: 100%;
+  max-height: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  @media screen and (max-width: 1200px) {
-    .pic {
-      margin-top: 30px; } }
-  @media screen and (max-width: 992px) {
-    .pic {
-      margin-top: 20px; } }
-  @media screen and (max-width: 480px) {
-    .pic {
-      margin-top: 30px; } }
 
 .prices {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14531,6 +14524,10 @@ p {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  position: absolute;
+  bottom: 0; }
+
+.header_middle .prices {
   position: relative; }
 
 .prices__link {
