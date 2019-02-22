@@ -14512,9 +14512,15 @@ p {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media screen and (max-width: 1200px) {
+    .pic {
+      margin-top: 30px; } }
   @media screen and (max-width: 992px) {
     .pic {
       margin-top: 20px; } }
+  @media screen and (max-width: 480px) {
+    .pic {
+      margin-top: 30px; } }
 
 .prices {
   display: -webkit-box;
