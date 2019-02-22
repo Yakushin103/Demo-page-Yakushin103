@@ -14579,6 +14579,44 @@ p {
       width: 60px;
       height: 60px; } }
 
+.prices__link-middle {
+  -webkit-animation: run 3s infinite ease-in;
+  animation: run 3s infinite ease-in; }
+
+@-webkit-keyframes run {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  75% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes run {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+  75% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
 .benefit {
   background: #fff;
   color: #000;
