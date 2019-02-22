@@ -14507,7 +14507,7 @@ p {
 
 .pic {
   width: 100%;
-  max-height: 460px;
+  max-height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14658,10 +14658,13 @@ p {
 
 .slider {
   margin: 50px 0; }
+  .slider img {
+    max-height: 500px;
+    width: 80%; }
 
 .carousel-indicators li {
   border: none;
-  background: url(../img/header_2.jpg);
+  background: url(../img/header_2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14671,13 +14674,13 @@ p {
     opacity: 1; }
 
 .carousel-indicators li:nth-child(2) {
-  background: url(../img/header_3.jpg);
+  background: url(../img/header_3.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .carousel-indicators li:nth-child(3) {
-  background: url(../img/header_4.jpg);
+  background: url(../img/header_4.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
